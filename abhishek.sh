@@ -1,2 +1,2 @@
-echo "Hi Abhishek" >> mumbai.txt
-vim mumbai.txt
+echo "Hi Swati" >> mumbai.txt
+cat mumbai.txt
