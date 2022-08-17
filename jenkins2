@@ -1,4 +1,239 @@
-Welcome to jenkins - Demo testing 1st
-
-HI Jenkins , part2nd
-saharsa
+1  apt update
+    2  clear
+    3  apt install openjdk-8-jdk -y
+    4  clear
+    5  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+    6  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+    7  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list
+    8  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+    9  apt update
+   10  clear
+   11  apt install jenkins -y
+   12  clear
+   13  systemctl status jenkins
+   14  clear
+   15  version --java
+   16  systemctl start jenkins
+   17  clear
+   18  cat /var/lib/jenkins/secrets/initialAdminPassword
+   19  cd /var/lib/jenkins
+   20  ls
+   21  ls -la
+   22  cd workspace
+   23  cd workspace/
+   24  ls
+   25  cd test/
+   26  ls -l
+   27  cat alok.txt
+   28  clear
+   29  cat abhi.txt
+   30  ls
+   31  cat alok.txt
+   32  cd
+   33  cd jobs
+   34  ls -la
+   35  pwd
+   36  cd /var/lib/jenkins
+   37  pwd
+   38  cd jobs/
+   39  ls -la
+   40  cd test
+   41  ls
+   42  cd builds/
+   43  cd..
+   44  cd .
+   45  cd ..
+   46  ls -la
+   47  cat config.xml
+   48  clear
+   49  ls -ls
+   50  cat nextBuildNumber 
+   51  vim  nextBuildNumber 
+   52  cd builds/
+   53  ls
+   54  cd 10
+   55  clear
+   56  ls -la
+   57  cat log
+   58  cat changelog.xml
+   59  clear
+   60  cd
+   61  clar
+   62  clear
+   63  cd /var/lib/jenkins
+   64  ls -la
+   65  cd logs
+   66  ls -la
+   67  cd tasks
+   68  ls -la
+   69  cd
+   70  clear
+   71  cd /var/lib/jenkins
+   72  ls -la
+   73  cd workspace/
+   74  ls -la
+   75  cd test
+   76  ls -la
+   77  cat aunny.txt
+   78  cd
+   79  cd /var/lib/jenkins
+   80  cd jobs/
+   81  ls -la
+   82  cd test/
+   83  ls -la
+   84  cd builds/
+   85  ls -la
+   86  cd 28
+   87  ls -la
+   88  clear
+   89  ls -la
+   90  cat log
+   91  cd..
+   92  cd
+   93  cd /var/lib/jenkins
+   94  cd workspace/
+   95  cd test/
+   96  la -la
+   97  cat aunny.txt
+   98  clear
+   99  cat aunny.txt
+  100  cat patna.txt
+  101  cd
+  102  apt install git
+  103  mkdir jenkins
+  104  cd jenkins
+  105  vim jenkins2
+  106  git init
+  107  git add jenkins2
+  108  git status
+  109  git commit -m "jenkins"
+  110  git branch
+  111  git remote add origin https://github.com/abhishekshc8/jenkins2.git
+  112  git push -u origin master
+  113  cd
+  114  cd /var/lib/jenkins
+  115  cd workspace/
+  116  ls -la
+  117  cd test/
+  118  ls -la
+  119  cat jenkins2
+  120  cd
+  121  cd jenkins2
+  122  ls -la
+  123  cd jenkins
+  124  lsm-la
+  125  ls -la
+  126  vim jenkins2
+  127  git add .
+  128  git commit -m 
+  129  git commit -m "jenkin2"
+  130  git push -u origin master
+  131  vim abhishek.sh
+  132  git add abhishek.sh
+  133  git status
+  134  git commit -m "git"
+  135  git push origin master
+  136  cd
+  137  cd /var/lib/jenkins
+  138  cd workspace/
+  139  ls -la
+  140  cd webhook/
+  141  ls 
+  142  cat mumbai.txt
+  143  ls -la
+  144  cat mumbai.txt
+  145  cat abhishek.txt
+  146  cat abhishek.sh
+  147  cd /var/lib/jenkins
+  148  cd workspace/
+  149  ls
+  150  cd webhook/
+  151  ls
+  152  cat mumbai.txt
+  153  mkdir java
+  154  cd java
+  155  git init
+  156  clear
+  157  git clone https://github.com/shazforiot/HelloWorld-Springboot-App.git
+  158  ls -la
+  159  cd HelloWorld-Springboot-App/
+  160  ls -la
+  161  cd src
+  162  ls -la
+  163  cd main
+  164  la -la
+  165  cd
+  166  cd java
+  167  clear
+  168  ls -la
+  169  cd HelloWorld-Springboot-App/
+  170  LS -LA
+  171  la-la
+  172  clear
+  173  ls -la
+  174  cd src
+  175  ls -la
+  176  cd main
+  177  ls 
+  178  cd
+  179  cd ava
+  180  cd java
+  181  cd HelloWorld-Springboot-App/
+  182  LS -LA
+  183  ls -la
+  184  git init
+  185  ls -la
+  186  git status
+  187  git branch
+  188  git remote -v
+  189  git remote add origin https://github.com/abhishekshc8/java.git
+  190  clear
+  191  git remote set-url origin https://github.com/abhishekshc8/java.git
+  192  git remote -v
+  193  git status
+  194  git origin
+  195  git remote
+  196  git push -u origin master
+  197  clear
+  198  ls -la
+  199  cd
+  200  clear
+  201  apt install maven
+  202  clear
+  203  mvn --version
+  204  echo $JAVA_HOME
+  205  echo $MAVEN_HOME
+  206  alternative --config git
+  207  alternatives --config git
+  208  alternatives --config java
+  209  apt install galternatives
+  210  dlternatives --config java
+  211  galternatives --config java
+  212  clear
+  213  cd usr
+  214  cd /usr
+  215  cd lib
+  216  ls -la
+  217  ls
+  218  cd jvm
+  219  ls
+  220  cd
+  221  cd /etc
+  222  ls 
+  223  cd /profiles
+  224  cd
+  225  vi /etc/profiles
+  226  vim /etc/profiles
+  227  vi /etc/profiles
+  228  cd /etc/profiles
+  229  cd /etc
+  230  ls -la
+  231  cd /profile.d
+  232  cd /profile
+  233  cat profile
+  234  cd
+  235  vim /etc/profile.d
+  236  vim /etc/profile
+  237  clear
+  238  ls
+  239  history
