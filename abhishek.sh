@@ -1,2 +1,1 @@
-hi , abhishek... testing
-delhi
+echo "Hi Abhishek" >> mumbai.txt
